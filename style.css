@@ -1,0 +1,27 @@
+/* NAVBAR STYLING */
+#downloadbtn {
+    background-color: green;
+    border-radius: 20%;
+    height: 45px;
+}
+/* NAVBAR LINK BUTTONS */
+li a {
+    color: gray;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform .2s;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: gray;
+    
+}
+
+.zoom {
+    transition: transform 1s;
+}
+.zoom:hover {
+    transform: scale(1.1); 
+    font-weight: bold;
+}
