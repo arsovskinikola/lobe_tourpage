@@ -1,6 +1,6 @@
 /* NAVBAR STYLING */
 #downloadbtn {
-    background-color: green;
+    background-color: rgb(166, 216, 166);
     border-radius: 20%;
     height: 45px;
 }
@@ -25,3 +25,18 @@ li a:hover {
     transform: scale(1.1); 
     font-weight: bold;
 }
+
+/* HEADER */
+.welcometext {
+    font-size: 70px;
+    font-weight: bolder;
+}
+#tourcolor {
+    color: rgb(166, 216, 166);
+}
+#headerparagraph {
+    font-size: 35px;
+}
+/* #headertext {
+    width: 50%;
+} */
