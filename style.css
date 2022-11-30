@@ -37,3 +37,19 @@ li a:hover {
 #headerparagraph {
     font-size: 35px;
 }
+/* MAIN STYLE */
+#video {
+    width: 70%;
+    height: 50%;
+    border-radius: 3%;
+
+}
+#video:hover {
+    text-shadow: 2px;
+    transform: scale(1.1); 
+}
+#downloadbtn2 {
+    background-color: rgb(166, 216, 166);
+    width: 150px;
+    height: 50px;
+}
