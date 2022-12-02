@@ -39,7 +39,7 @@ li a:hover {
 }
 /* MAIN STYLE */
 #video {
-    width: 70%;
+    width: 60%;
     height: 50%;
     border-radius: 3%;
 
@@ -52,4 +52,25 @@ li a:hover {
     background-color: rgb(166, 216, 166);
     width: 150px;
     height: 50px;
+}
+/* FOOTER */
+hr {
+    width: 70%;
+}
+.centering {
+    width: 55%;
+    height: auto;
+    position: absolute;
+
+    left: 23%;
+}
+
+ul li {
+    list-style: none;
+}
+
+@media (max-width: 576px) {
+    #footer:first-child {
+        order: 5;
+    }
 }
